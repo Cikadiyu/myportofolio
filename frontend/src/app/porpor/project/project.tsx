@@ -20,7 +20,7 @@ const projects = [
 
 export default function ProjectSection() {
   return (
-    <section className="bg-[#07091c] py-20">
+    <section id="projects" className="bg-[#07091c] py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mb-12 max-w-3xl">
           <p className="text-sm uppercase tracking-[0.35em] text-pink-300">

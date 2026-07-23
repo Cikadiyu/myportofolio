@@ -4,9 +4,13 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req, res) => {
-    res.send('MBGGGEEEE');
-});
+const db = require('./config/db');
+
+const heroRoutes = require('./routes/heroRoute');
+
+app.use(express.json());
+
+app.use(heroRoute);
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

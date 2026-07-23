@@ -7,7 +7,7 @@ import CertificateSection from './porpor/sertifikat/sertifikat'
 
 export default function page() {
   return (
-    <div>
+    <div className="pt-20">
       <Navbar />
       <HeroPage />
       <ProjectSection />
